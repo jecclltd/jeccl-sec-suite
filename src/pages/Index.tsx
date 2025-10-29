@@ -39,8 +39,14 @@ const Index = () => {
               secure, and compliant with expert guidance from Jeccl Cyber.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button variant="hero" size="lg">Schedule Consultation</Button>
-              <Button variant="outline" size="lg">Learn More</Button>
+              <Button variant="hero" size="lg" asChild>
+                <a href="https://calendly.com/jeccl/introduction-1-2-1" target="_blank" rel="noopener noreferrer">
+                  Schedule Consultation
+                </a>
+              </Button>
+              <Button variant="outline" size="lg" asChild>
+                <a href="#services">Learn More</a>
+              </Button>
             </div>
           </div>
         </div>
@@ -184,15 +190,19 @@ const Index = () => {
                 variant="secondary" 
                 size="lg"
                 className="bg-accent text-accent-foreground hover:bg-accent/90"
+                asChild
               >
-                Schedule Your Consultation
+                <a href="https://calendly.com/jeccl/introduction-1-2-1" target="_blank" rel="noopener noreferrer">
+                  Schedule Your Consultation
+                </a>
               </Button>
               <Button 
                 variant="outline" 
                 size="lg"
                 className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary"
+                asChild
               >
-                Contact Us Today
+                <a href="#contact">Contact Us Today</a>
               </Button>
             </div>
           </Card>
