@@ -57,19 +57,22 @@ const Index = () => {
             <Card className="p-8 md:p-12 shadow-lg">
               <div className="space-y-6 text-lg text-foreground leading-relaxed">
                 <p>
-                  <span className="font-semibold text-primary">Jeccl Cyber</span> is a continuation of the work of 
-                  Christopher Mason and Jeccl Ltd. Christopher is a <span className="font-semibold">multi-award winning entrepreneur</span> who 
-                  has devoted his life to providing IT support services to SMEs across the UK.
+                  <span className="font-semibold text-primary">Jeccl Cyber</span> represents the evolution of Christopher Mason's 
+                  legacy at Jeccl Ltd—a <span className="font-semibold">multi-award winning entrepreneur</span> whose unwavering 
+                  commitment to UK SME technology has established him as a trusted authority in the industry.
                 </p>
                 <p>
-                  Currently undergoing massive expansion, Jeccl Cyber has been brought about to satisfy the modern 
-                  cybersecurity demands of SMEs across the UK. Chris holds a <span className="font-semibold text-accent">Masters in Cyber Security</span> and 
-                  is working with businesses of all sizes to help them with their cybersecurity needs.
+                  Born from the increasing sophistication of cyber threats facing modern businesses, Jeccl Cyber stands 
+                  as the definitive cybersecurity partner for UK SMEs. Led by Christopher Mason, who holds a 
+                  <span className="font-semibold text-accent"> Masters in Cyber Security</span>, our consultancy delivers 
+                  unparalleled expertise that transforms complex security challenges into competitive advantages for 
+                  organisations across every sector.
                 </p>
                 <p>
-                  Chris is currently furthering his studies with additional training in Cyber Security to be able to 
-                  help with the upcoming <span className="font-semibold">Cyber Security and Resilience Bill</span>, ensuring your business 
-                  stays ahead of regulatory requirements.
+                  With continuous specialisation in emerging cybersecurity frameworks, including the forthcoming 
+                  <span className="font-semibold"> Cyber Security and Resilience Bill</span>, Jeccl Cyber doesn't just 
+                  meet regulatory requirements—we anticipate them. When you choose Jeccl Cyber, you're choosing a 
+                  partner who ensures your business remains perpetually ahead of compliance obligations and threat landscapes.
                 </p>
               </div>
             </Card>
