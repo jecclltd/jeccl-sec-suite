@@ -28,7 +28,7 @@ const Index = () => {
       {/* Hero Section */}
       <section className="relative pt-32 pb-20 px-4 overflow-hidden">
         <div 
-          className="absolute inset-0 opacity-10"
+          className="absolute inset-0 opacity-25"
           style={{
             backgroundImage: `url(${heroImage})`,
             backgroundSize: 'cover',
@@ -61,7 +61,7 @@ const Index = () => {
       {/* Services */}
       <section id="services" className="relative py-20 px-4 bg-muted/30">
         <div 
-          className="absolute inset-0 opacity-5"
+          className="absolute inset-0 opacity-20"
           style={{
             backgroundImage: `url(${servicesImage})`,
             backgroundSize: 'cover',
@@ -119,7 +119,7 @@ const Index = () => {
       {/* Why Cybersecurity Matters */}
       <section className="relative py-20 px-4">
         <div 
-          className="absolute inset-0 opacity-5"
+          className="absolute inset-0 opacity-15"
           style={{
             backgroundImage: `url(${securityNetwork})`,
             backgroundSize: 'cover',
