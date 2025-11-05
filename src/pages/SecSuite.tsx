@@ -501,7 +501,7 @@ const SecSuite = () => {
             <div className="grid md:grid-cols-3 gap-8">
               <Card className="p-8 hover:shadow-xl transition-all duration-300">
                 <h3 className="text-2xl font-bold mb-4 text-foreground">Essential</h3>
-                <p className="text-sm text-muted-foreground mb-4">Perfect for businesses up to 10 users</p>
+                <p className="text-sm text-muted-foreground mb-4">Up to 10 users • Single site</p>
                 <div className="mb-6">
                   <span className="text-4xl font-bold text-foreground">£699</span>
                   <span className="text-muted-foreground">/month</span>
@@ -534,7 +534,7 @@ const SecSuite = () => {
                   Most Popular
                 </div>
                 <h3 className="text-2xl font-bold mb-4 text-foreground">Professional</h3>
-                <p className="text-sm text-muted-foreground mb-4">Ideal for businesses up to 40 users</p>
+                <p className="text-sm text-muted-foreground mb-4">Up to 30 users • Single site</p>
                 <div className="mb-6">
                   <span className="text-4xl font-bold text-foreground">£1,799</span>
                   <span className="text-muted-foreground">/month</span>
@@ -600,10 +600,47 @@ const SecSuite = () => {
             </div>
 
             <div className="mt-12 text-center">
-              <p className="text-lg text-muted-foreground">
+              <p className="text-lg text-muted-foreground mb-8">
                 <strong>Additional consulting available at £1,200/day</strong> for strategic security initiatives, 
-                incident response, or specialized projects.
+                incident response, or specialised projects.
               </p>
+              
+              <div className="bg-card border-2 border-accent/20 rounded-xl p-8 max-w-4xl mx-auto">
+                <h3 className="text-2xl font-bold mb-6 text-foreground">Additional Services Available</h3>
+                <div className="grid md:grid-cols-2 gap-6 text-left">
+                  <div className="flex items-start gap-3">
+                    <CheckCircle2 className="w-5 h-5 text-accent flex-shrink-0 mt-1" />
+                    <div>
+                      <p className="font-semibold text-foreground">ISO 27001 Certification</p>
+                      <p className="text-sm text-muted-foreground">Full support and implementation available</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <CheckCircle2 className="w-5 h-5 text-accent flex-shrink-0 mt-1" />
+                    <div>
+                      <p className="font-semibold text-foreground">Cyber Essentials</p>
+                      <p className="text-sm text-muted-foreground">Certification support and guidance</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <CheckCircle2 className="w-5 h-5 text-accent flex-shrink-0 mt-1" />
+                    <div>
+                      <p className="font-semibold text-foreground">IT Support Services</p>
+                      <p className="text-sm text-muted-foreground">Ongoing technical support available</p>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-3">
+                    <CheckCircle2 className="w-5 h-5 text-accent flex-shrink-0 mt-1" />
+                    <div>
+                      <p className="font-semibold text-foreground">Infrastructure Remedial Work</p>
+                      <p className="text-sm text-muted-foreground">Security improvements and upgrades</p>
+                    </div>
+                  </div>
+                </div>
+                <p className="text-sm text-muted-foreground mt-6">
+                  All additional services are priced individually based on your requirements. Contact us for a tailored quote.
+                </p>
+              </div>
             </div>
           </div>
         </div>
