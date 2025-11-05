@@ -244,7 +244,7 @@ const SecSuite = () => {
                     <h3 className="text-2xl font-bold mb-3 text-foreground">Rapid Breach Response</h3>
                     <p className="text-muted-foreground mb-4">
                       Expert-led incident response team ready to contain and resolve security 
-                      incidents, minimizing damage and downtime.
+                      incidents, minimising damage and downtime.
                     </p>
                     <ul className="space-y-2 text-sm text-muted-foreground">
                       <li className="flex items-center gap-2">
@@ -273,7 +273,7 @@ const SecSuite = () => {
                     <h3 className="text-2xl font-bold mb-3 text-foreground">Comprehensive Staff Training</h3>
                     <p className="text-muted-foreground mb-4">
                       Regular security awareness training for your entire team. Turn your staff 
-                      into your first line of defense against cyber threats.
+                      into your first line of defence against cyber threats.
                     </p>
                     <ul className="space-y-2 text-sm text-muted-foreground">
                       <li className="flex items-center gap-2">
@@ -501,8 +501,9 @@ const SecSuite = () => {
             <div className="grid md:grid-cols-3 gap-8">
               <Card className="p-8 hover:shadow-xl transition-all duration-300">
                 <h3 className="text-2xl font-bold mb-4 text-foreground">Essential</h3>
+                <p className="text-sm text-muted-foreground mb-4">Perfect for businesses up to 10 users</p>
                 <div className="mb-6">
-                  <span className="text-4xl font-bold text-foreground">£499</span>
+                  <span className="text-4xl font-bold text-foreground">£699</span>
                   <span className="text-muted-foreground">/month</span>
                 </div>
                 <ul className="space-y-3 mb-8">
@@ -533,8 +534,9 @@ const SecSuite = () => {
                   Most Popular
                 </div>
                 <h3 className="text-2xl font-bold mb-4 text-foreground">Professional</h3>
+                <p className="text-sm text-muted-foreground mb-4">Ideal for businesses up to 40 users</p>
                 <div className="mb-6">
-                  <span className="text-4xl font-bold text-foreground">£899</span>
+                  <span className="text-4xl font-bold text-foreground">£1,799</span>
                   <span className="text-muted-foreground">/month</span>
                 </div>
                 <ul className="space-y-3 mb-8">

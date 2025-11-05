@@ -186,7 +186,7 @@ const Index = () => {
                   <div className="flex-1">
                     <h3 className="text-2xl font-bold mb-3 text-foreground">Security Awareness Training</h3>
                     <p className="text-muted-foreground mb-4">
-                      Your team is your first line of defense. We deliver engaging, practical training 
+                      Your team is your first line of defence. We deliver engaging, practical training 
                       that transforms your staff into security-conscious professionals.
                     </p>
                     <ul className="space-y-2 text-sm text-muted-foreground">
