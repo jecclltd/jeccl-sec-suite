@@ -14,7 +14,7 @@ const Index = () => {
       {/* Navigation */}
       <nav className="fixed top-0 w-full bg-background/95 backdrop-blur-sm border-b border-border z-50">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <div className="text-2xl font-bold text-primary">Jeccl Cyber</div>
+          <a href="/" className="text-2xl font-bold text-primary hover:text-accent transition-colors">Jeccl Cyber</a>
           <div className="flex items-center gap-6">
             <a href="/about" className="text-foreground hover:text-accent transition-colors">About</a>
             <a href="#services" className="text-foreground hover:text-accent transition-colors">Services</a>
@@ -405,7 +405,7 @@ const Index = () => {
       {/* Footer */}
       <footer className="py-12 px-4 bg-primary text-primary-foreground">
         <div className="container mx-auto text-center">
-          <div className="text-2xl font-bold mb-4">Jeccl Cyber</div>
+          <a href="/" className="text-2xl font-bold mb-4 hover:text-primary-foreground/80 transition-colors">Jeccl Cyber</a>
           <p className="text-primary-foreground/80 mb-6">
             Protecting UK SMEs with expert cybersecurity solutions
           </p>

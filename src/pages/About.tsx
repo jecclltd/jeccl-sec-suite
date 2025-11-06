@@ -147,7 +147,7 @@ const About = () => {
       {/* Footer */}
       <footer className="py-12 px-4 bg-primary text-primary-foreground">
         <div className="container mx-auto text-center">
-          <div className="text-2xl font-bold mb-4">Jeccl Cyber</div>
+          <a href="/" className="text-2xl font-bold mb-4 hover:text-primary-foreground/80 transition-colors">Jeccl Cyber</a>
           <p className="text-primary-foreground/80 mb-6">
             Protecting UK SMEs with expert cybersecurity solutions
           </p>
