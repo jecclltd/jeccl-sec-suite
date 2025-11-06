@@ -114,11 +114,11 @@ const SecSuite = () => {
               Introducing Sec-Suite
             </div>
             <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-              Comprehensive Cybersecurity Protection for UK SMEs
+              End-to-End Cybersecurity Solutions for UK SMEs
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 leading-relaxed">
-              Protect your business from cyber attacks with proactive, 24/7 security monitoring. 
-              Focus on growth while we handle your cybersecurity—stress-free.
+              From Cyber Essentials certification to ongoing security training and compliance management. 
+              Complete cybersecurity solutions tailored for your business.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button variant="hero" size="lg" asChild>
@@ -150,9 +150,9 @@ const SecSuite = () => {
                 <AlertTriangle className="w-12 h-12 text-destructive mb-4" />
                 <h3 className="text-xl font-bold mb-3 text-foreground">Financial Loss</h3>
                 <p className="text-muted-foreground mb-4">
-                  Average breach costs UK SMEs £4,200 per incident. Recovery costs, lost revenue, and reputation damage add up quickly.
+                  Cyber breaches can cost businesses thousands in recovery costs, lost revenue, and reputation damage.
                 </p>
-                <div className="text-3xl font-bold text-destructive">£4,200+</div>
+                <div className="text-3xl font-bold text-destructive">High Impact</div>
               </Card>
 
               <Card className="p-8 border-2 border-destructive/20 hover:border-destructive/40 transition-colors">
@@ -176,12 +176,12 @@ const SecSuite = () => {
 
             <div className="mt-12 p-8 bg-card rounded-xl border-2 border-accent/20">
               <div className="flex items-start gap-4">
-                <Shield className="w-10 h-10 text-accent flex-shrink-0 mt-1" />
+                <Award className="w-10 h-10 text-accent flex-shrink-0 mt-1" />
                 <div>
-                  <h3 className="text-2xl font-bold mb-3 text-foreground">Don't Let Your Business Become a Statistic</h3>
+                  <h3 className="text-2xl font-bold mb-3 text-foreground">Cyber Essentials: Your Foundation for Security</h3>
                   <p className="text-lg text-muted-foreground">
-                    43% of cyberattacks target small businesses, yet only 14% are adequately prepared. 
-                    Sec-Suite ensures you're in the protected majority, not the vulnerable majority.
+                    Cyber Essentials certification is increasingly required by clients and government contracts. 
+                    Sec-Suite provides end-to-end support to achieve and maintain your certification whilst building a robust security posture.
                   </p>
                 </div>
               </div>
@@ -196,11 +196,11 @@ const SecSuite = () => {
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
-                How Sec-Suite Protects Your Business
+                Complete Security Solutions from Jeccl Ltd
               </h2>
               <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-                Our comprehensive cybersecurity service combines advanced technology with expert human oversight 
-                to keep your business safe 24/7.
+                From Cyber Essentials certification to ongoing training, compliance management, and security monitoring. 
+                Everything your business needs to stay secure and compliant.
               </p>
             </div>
 
@@ -270,10 +270,10 @@ const SecSuite = () => {
                     <Users className="w-10 h-10 text-accent" />
                   </div>
                   <div>
-                    <h3 className="text-2xl font-bold mb-3 text-foreground">Comprehensive Staff Training</h3>
+                    <h3 className="text-2xl font-bold mb-3 text-foreground">Ongoing Security Training & Support</h3>
                     <p className="text-muted-foreground mb-4">
-                      Regular security awareness training for your entire team. Turn your staff 
-                      into your first line of defence against cyber threats.
+                      Continuous security awareness training and dedicated support for your team. 
+                      Build a security-conscious culture with regular training sessions and expert guidance.
                     </p>
                     <ul className="space-y-2 text-sm text-muted-foreground">
                       <li className="flex items-center gap-2">
@@ -299,23 +299,23 @@ const SecSuite = () => {
                     <FileCheck className="w-10 h-10 text-accent" />
                   </div>
                   <div>
-                    <h3 className="text-2xl font-bold mb-3 text-foreground">Compliance Management</h3>
+                    <h3 className="text-2xl font-bold mb-3 text-foreground">Compliance & Policy Management</h3>
                     <p className="text-muted-foreground mb-4">
-                      Stay compliant with GDPR, ICO, and industry regulations. We handle the 
-                      complexity so you can focus on your business.
+                      Comprehensive compliance management and policy development. From GDPR to Cyber Essentials, 
+                      we ensure your policies and procedures meet all requirements.
                     </p>
                     <ul className="space-y-2 text-sm text-muted-foreground">
                       <li className="flex items-center gap-2">
                         <CheckCircle2 className="w-4 h-4 text-accent" />
-                        Regular compliance audits
+                        Policy creation & implementation
                       </li>
                       <li className="flex items-center gap-2">
                         <CheckCircle2 className="w-4 h-4 text-accent" />
-                        Policy updates & implementation
+                        Cyber Essentials support
                       </li>
                       <li className="flex items-center gap-2">
                         <CheckCircle2 className="w-4 h-4 text-accent" />
-                        Audit-ready documentation
+                        Compliance documentation & audits
                       </li>
                     </ul>
                   </div>
@@ -390,10 +390,10 @@ const SecSuite = () => {
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
-                Why Choose Jeccl Cyber's Sec-Suite?
+                Why Choose Jeccl Ltd's Sec-Suite?
               </h2>
               <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-                Over 20 years of cybersecurity expertise protecting UK businesses
+                A new offering from Jeccl Ltd, backed by over 20 years of cybersecurity expertise
               </p>
             </div>
 
@@ -413,73 +413,70 @@ const SecSuite = () => {
                   <div>
                     <h3 className="text-2xl font-bold mb-2 text-foreground">20+ Years of Expertise</h3>
                     <p className="text-muted-foreground">
-                      Founded by Christopher Mason with over two decades in cybersecurity, 
-                      working with everything from SMEs to enterprise organizations.
+                      Led by Christopher Mason with over two decades in cybersecurity, 
+                      Jeccl Ltd brings deep expertise to this new comprehensive security offering.
                     </p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
                   <div className="p-3 bg-accent/10 rounded-lg flex-shrink-0">
-                    <Users className="w-8 h-8 text-accent" />
+                    <Shield className="w-8 h-8 text-accent" />
                   </div>
                   <div>
-                    <h3 className="text-2xl font-bold mb-2 text-foreground">Dedicated Support</h3>
+                    <h3 className="text-2xl font-bold mb-2 text-foreground">Cyber Essentials Focus</h3>
                     <p className="text-muted-foreground">
-                      You're not just a number. Every Sec-Suite client gets a dedicated security 
-                      consultant who knows your business inside and out.
+                      We specialise in helping UK SMEs achieve and maintain Cyber Essentials certification, 
+                      providing the foundation for strong cybersecurity practices.
                     </p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
                   <div className="p-3 bg-accent/10 rounded-lg flex-shrink-0">
-                    <TrendingUp className="w-8 h-8 text-accent" />
+                    <FileCheck className="w-8 h-8 text-accent" />
                   </div>
                   <div>
-                    <h3 className="text-2xl font-bold mb-2 text-foreground">Proven Results</h3>
+                    <h3 className="text-2xl font-bold mb-2 text-foreground">End-to-End Solutions</h3>
                     <p className="text-muted-foreground">
-                      Our clients have experienced zero successful breaches since implementing 
-                      Sec-Suite. We don't just monitor—we protect.
+                      From initial certification through ongoing training, compliance management, 
+                      and security monitoring—complete solutions tailored to your needs.
                     </p>
                   </div>
                 </div>
               </div>
             </div>
 
-            {/* Testimonials */}
-            <div className="grid md:grid-cols-2 gap-8">
-              <Card className="p-8">
-                <div className="flex gap-2 mb-4">
-                  {[...Array(5)].map((_, i) => (
-                    <Award key={i} className="w-5 h-5 text-accent fill-accent" />
-                  ))}
+            {/* Key Benefits */}
+            <div className="bg-card border-2 border-accent/20 rounded-xl p-8">
+              <h3 className="text-2xl font-bold mb-6 text-center text-foreground">What Makes Sec-Suite Different</h3>
+              <div className="grid md:grid-cols-3 gap-6">
+                <div className="text-center">
+                  <div className="inline-flex p-4 bg-accent/10 rounded-full mb-4">
+                    <Award className="w-8 h-8 text-accent" />
+                  </div>
+                  <h4 className="font-bold text-foreground mb-2">Certification Support</h4>
+                  <p className="text-sm text-muted-foreground">
+                    Full support for Cyber Essentials and ISO 27001 certification
+                  </p>
                 </div>
-                <p className="text-lg text-muted-foreground mb-4 italic">
-                  "Sec-Suite has transformed how we think about security. We sleep better knowing 
-                  Jeccl Cyber is watching over our systems 24/7. The training alone has saved us 
-                  from multiple phishing attempts."
-                </p>
-                <div>
-                  <p className="font-bold text-foreground">Sarah Mitchell</p>
-                  <p className="text-sm text-muted-foreground">CEO, TechStart Solutions Ltd</p>
+                <div className="text-center">
+                  <div className="inline-flex p-4 bg-accent/10 rounded-full mb-4">
+                    <Users className="w-8 h-8 text-accent" />
+                  </div>
+                  <h4 className="font-bold text-foreground mb-2">Ongoing Training</h4>
+                  <p className="text-sm text-muted-foreground">
+                    Continuous security awareness training and support for your team
+                  </p>
                 </div>
-              </Card>
-
-              <Card className="p-8">
-                <div className="flex gap-2 mb-4">
-                  {[...Array(5)].map((_, i) => (
-                    <Award key={i} className="w-5 h-5 text-accent fill-accent" />
-                  ))}
+                <div className="text-center">
+                  <div className="inline-flex p-4 bg-accent/10 rounded-full mb-4">
+                    <FileCheck className="w-8 h-8 text-accent" />
+                  </div>
+                  <h4 className="font-bold text-foreground mb-2">Policy & Compliance</h4>
+                  <p className="text-sm text-muted-foreground">
+                    Comprehensive policy development and compliance management
+                  </p>
                 </div>
-                <p className="text-lg text-muted-foreground mb-4 italic">
-                  "After implementing Sec-Suite, we passed our ISO 27001 audit with flying colors. 
-                  The team at Jeccl Cyber didn't just help us meet compliance—they helped us 
-                  understand why it matters."
-                </p>
-                <div>
-                  <p className="font-bold text-foreground">James Robertson</p>
-                  <p className="text-sm text-muted-foreground">Operations Director, Innovate Finance</p>
-                </div>
-              </Card>
+              </div>
             </div>
           </div>
         </div>
@@ -665,10 +662,10 @@ const SecSuite = () => {
                   What makes Sec-Suite different from other security services?
                 </AccordionTrigger>
                 <AccordionContent className="text-muted-foreground">
-                  Sec-Suite combines advanced automated monitoring with expert human oversight. 
-                  Unlike fully automated solutions, we provide dedicated security consultants who 
-                  understand your business. Unlike purely consulting-based services, we offer 24/7 
-                  monitoring and rapid response. It's the best of both worlds.
+                  Sec-Suite provides end-to-end cybersecurity solutions with a strong focus on Cyber Essentials 
+                  certification. We combine certification support, ongoing security training, compliance and policy 
+                  management, and security monitoring in one comprehensive package. This integrated approach ensures 
+                  your business builds a solid security foundation and maintains it over time.
                 </AccordionContent>
               </AccordionItem>
 
