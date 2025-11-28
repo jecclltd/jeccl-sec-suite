@@ -18,7 +18,7 @@ const Index = () => {
           <div className="flex items-center gap-6">
             <a href="/about" className="text-foreground hover:text-accent transition-colors">About</a>
             <a href="#services" className="text-foreground hover:text-accent transition-colors">Services</a>
-            <a href="/sec-suite" className="text-foreground hover:text-accent transition-colors">Sec-Suite</a>
+            <a href="/cyberj" className="text-foreground hover:text-accent transition-colors">CyberJ</a>
             <a href="#contact" className="text-foreground hover:text-accent transition-colors">Contact</a>
             <Button variant="hero" size="sm" asChild>
               <a href="https://calendly.com/jeccl/introduction-1-2-1" target="_blank" rel="noopener noreferrer">
@@ -413,7 +413,7 @@ const Index = () => {
             <a href="/" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">Home</a>
             <a href="/about" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">About</a>
             <a href="/#services" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">Services</a>
-            <a href="/sec-suite" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">Sec-Suite</a>
+            <a href="/cyberj" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">CyberJ</a>
             <a href="/#contact" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">Contact</a>
           </div>
           <div className="text-sm text-primary-foreground/60">
