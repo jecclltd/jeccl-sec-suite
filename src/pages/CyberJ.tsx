@@ -35,7 +35,7 @@ const contactSchema = z.object({
   message: z.string().trim().min(1, "Message is required").max(1000, "Message must be less than 1000 characters")
 });
 
-const SecSuite = () => {
+const CyberJ = () => {
   const { toast } = useToast();
   const [formData, setFormData] = useState({
     name: "",
@@ -87,7 +87,7 @@ const SecSuite = () => {
             <a href="/" className="text-foreground hover:text-accent transition-colors">Home</a>
             <a href="/about" className="text-foreground hover:text-accent transition-colors">About</a>
             <a href="/#services" className="text-foreground hover:text-accent transition-colors">Services</a>
-            <a href="/sec-suite" className="text-accent font-semibold">Sec-Suite</a>
+            <a href="/cyberj" className="text-accent font-semibold">CyberJ</a>
             <Button variant="hero" size="sm" asChild>
               <a href="https://calendly.com/jeccl/introduction-1-2-1" target="_blank" rel="noopener noreferrer">
                 Get Started
@@ -111,7 +111,7 @@ const SecSuite = () => {
         <div className="container mx-auto relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             <div className="inline-block px-4 py-2 bg-accent/10 rounded-full text-accent font-semibold mb-6">
-              Introducing Sec-Suite
+              Introducing CyberJ
             </div>
             <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
               End-to-End Cybersecurity Solutions for UK SMEs
@@ -181,7 +181,7 @@ const SecSuite = () => {
                   <h3 className="text-2xl font-bold mb-3 text-foreground">Cyber Essentials: Your Foundation for Security</h3>
                   <p className="text-lg text-muted-foreground">
                     Cyber Essentials certification is increasingly required by clients and government contracts. 
-                    Sec-Suite provides end-to-end support to achieve and maintain your certification whilst building a robust security posture.
+                    CyberJ provides end-to-end support to achieve and maintain your certification whilst building a robust security posture.
                   </p>
                 </div>
               </div>
@@ -390,7 +390,7 @@ const SecSuite = () => {
           <div className="max-w-6xl mx-auto">
             <div className="text-center mb-16">
               <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
-                Why Choose Jeccl Ltd's Sec-Suite?
+                Why Choose Jeccl Ltd's CyberJ?
               </h2>
               <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
                 A new offering from Jeccl Ltd, backed by over 20 years of cybersecurity expertise
@@ -447,7 +447,7 @@ const SecSuite = () => {
 
             {/* Key Benefits */}
             <div className="bg-card border-2 border-accent/20 rounded-xl p-8">
-              <h3 className="text-2xl font-bold mb-6 text-center text-foreground">What Makes Sec-Suite Different</h3>
+              <h3 className="text-2xl font-bold mb-6 text-center text-foreground">What Makes CyberJ Different</h3>
               <div className="grid md:grid-cols-3 gap-6">
                 <div className="text-center">
                   <div className="inline-flex p-4 bg-accent/10 rounded-full mb-4">
@@ -652,17 +652,17 @@ const SecSuite = () => {
                 Frequently Asked Questions
               </h2>
               <p className="text-xl text-muted-foreground">
-                Everything you need to know about Sec-Suite
+                Everything you need to know about CyberJ
               </p>
             </div>
 
             <Accordion type="single" collapsible className="space-y-4">
               <AccordionItem value="item-1" className="bg-card border rounded-lg px-6">
                 <AccordionTrigger className="text-lg font-semibold text-foreground hover:text-accent">
-                  What makes Sec-Suite different from other security services?
+                  What makes CyberJ different from other security services?
                 </AccordionTrigger>
                 <AccordionContent className="text-muted-foreground">
-                  Sec-Suite provides end-to-end cybersecurity solutions with a strong focus on Cyber Essentials 
+                  CyberJ provides end-to-end cybersecurity solutions with a strong focus on Cyber Essentials 
                   certification. We combine certification support, ongoing security training, compliance and policy 
                   management, and security monitoring in one comprehensive package. This integrated approach ensures 
                   your business builds a solid security foundation and maintains it over time.
@@ -671,7 +671,7 @@ const SecSuite = () => {
 
               <AccordionItem value="item-2" className="bg-card border rounded-lg px-6">
                 <AccordionTrigger className="text-lg font-semibold text-foreground hover:text-accent">
-                  How quickly can you deploy Sec-Suite for my business?
+                  How quickly can you deploy CyberJ for my business?
                 </AccordionTrigger>
                 <AccordionContent className="text-muted-foreground">
                   Most businesses are fully onboarded within 2-3 weeks. We start with an initial 
@@ -694,21 +694,21 @@ const SecSuite = () => {
 
               <AccordionItem value="item-4" className="bg-card border rounded-lg px-6">
                 <AccordionTrigger className="text-lg font-semibold text-foreground hover:text-accent">
-                  Do I need existing security infrastructure to use Sec-Suite?
+                  Do I need existing security infrastructure to use CyberJ?
                 </AccordionTrigger>
                 <AccordionContent className="text-muted-foreground">
                   No. We work with businesses at all security maturity levels. If you have existing 
                   security tools, we'll integrate with them. If not, we'll recommend and implement 
-                  appropriate solutions as part of your Sec-Suite package. We meet you where you are.
+                  appropriate solutions as part of your CyberJ package. We meet you where you are.
                 </AccordionContent>
               </AccordionItem>
 
               <AccordionItem value="item-5" className="bg-card border rounded-lg px-6">
                 <AccordionTrigger className="text-lg font-semibold text-foreground hover:text-accent">
-                  Is Sec-Suite suitable for businesses with remote workers?
+                  Is CyberJ suitable for businesses with remote workers?
                 </AccordionTrigger>
                 <AccordionContent className="text-muted-foreground">
-                  Absolutely. We specialize in securing hybrid and remote work environments. Sec-Suite 
+                  Absolutely. We specialize in securing hybrid and remote work environments. CyberJ 
                   includes secure remote access solutions, endpoint protection for remote devices, 
                   and training specifically focused on remote work security best practices.
                 </AccordionContent>
@@ -716,10 +716,10 @@ const SecSuite = () => {
 
               <AccordionItem value="item-6" className="bg-card border rounded-lg px-6">
                 <AccordionTrigger className="text-lg font-semibold text-foreground hover:text-accent">
-                  What compliance standards does Sec-Suite help with?
+                  What compliance standards does CyberJ help with?
                 </AccordionTrigger>
                 <AccordionContent className="text-muted-foreground">
-                  Sec-Suite helps you meet GDPR, ISO 27001, Cyber Essentials, Cyber Essentials Plus, 
+                  CyberJ helps you meet GDPR, ISO 27001, Cyber Essentials, Cyber Essentials Plus, 
                   and ICO requirements. We also support industry-specific standards for financial services, 
                   healthcare, and legal sectors. Our compliance management includes regular audits, 
                   policy updates, and audit-ready documentation.
@@ -728,7 +728,7 @@ const SecSuite = () => {
 
               <AccordionItem value="item-7" className="bg-card border rounded-lg px-6">
                 <AccordionTrigger className="text-lg font-semibold text-foreground hover:text-accent">
-                  Can I upgrade or downgrade my Sec-Suite plan?
+                  Can I upgrade or downgrade my CyberJ plan?
                 </AccordionTrigger>
                 <AccordionContent className="text-muted-foreground">
                   Yes. Your security needs may change as your business grows. You can upgrade or 
@@ -764,7 +764,7 @@ const SecSuite = () => {
                 </h2>
                 <p className="text-xl opacity-90">
                   Book your free cyber risk review today. No obligation, just expert insights 
-                  into your security posture and how Sec-Suite can help.
+                  into your security posture and how CyberJ can help.
                 </p>
               </div>
 
@@ -890,7 +890,7 @@ const SecSuite = () => {
             <a href="/" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">Home</a>
             <a href="/about" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">About</a>
             <a href="/#services" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">Services</a>
-            <a href="/sec-suite" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">Sec-Suite</a>
+            <a href="/cyberj" className="text-primary-foreground/80 hover:text-primary-foreground transition-colors">CyberJ</a>
           </div>
           <div className="text-sm text-primary-foreground/60">
             © {new Date().getFullYear()} Jeccl Cyber. Part of Jeccl Ltd. All rights reserved.
@@ -901,4 +901,4 @@ const SecSuite = () => {
   );
 };
 
-export default SecSuite;
+export default CyberJ;
