@@ -500,7 +500,7 @@ const CyberJ = () => {
                 <h3 className="text-2xl font-bold mb-4 text-foreground">Essential</h3>
                 <p className="text-sm text-muted-foreground mb-4">Up to 10 users • Single site</p>
                 <div className="mb-6">
-                  <span className="text-4xl font-bold text-foreground">£699</span>
+                  <span className="text-4xl font-bold text-foreground">£799</span>
                   <span className="text-muted-foreground">/month</span>
                 </div>
                 <ul className="space-y-3 mb-8">
@@ -531,7 +531,7 @@ const CyberJ = () => {
                   Most Popular
                 </div>
                 <h3 className="text-2xl font-bold mb-4 text-foreground">Professional</h3>
-                <p className="text-sm text-muted-foreground mb-4">Up to 30 users • Single site</p>
+                <p className="text-sm text-muted-foreground mb-4">11-25 users • Single site</p>
                 <div className="mb-6">
                   <span className="text-4xl font-bold text-foreground">£1,799</span>
                   <span className="text-muted-foreground">/month</span>
@@ -565,6 +565,7 @@ const CyberJ = () => {
 
               <Card className="p-8 hover:shadow-xl transition-all duration-300">
                 <h3 className="text-2xl font-bold mb-4 text-foreground">Enterprise</h3>
+                <p className="text-sm text-muted-foreground mb-4">26+ users</p>
                 <div className="mb-6">
                   <span className="text-4xl font-bold text-foreground">Custom</span>
                 </div>
@@ -594,6 +595,34 @@ const CyberJ = () => {
                   <a href="#contact">Contact Us</a>
                 </Button>
               </Card>
+            </div>
+
+            <p className="text-center text-sm text-muted-foreground mt-4">All prices exclude VAT</p>
+
+            {/* Complete IT Add-on */}
+            <div className="mt-12 bg-card border-2 border-accent/20 rounded-xl p-8 max-w-4xl mx-auto">
+              <h3 className="text-2xl font-bold mb-4 text-center text-foreground">Complete IT Add-on Package</h3>
+              <p className="text-muted-foreground text-center mb-6">
+                Extend your CyberJ package with comprehensive IT support, priced per site.
+              </p>
+              <div className="grid md:grid-cols-3 gap-6">
+                <div className="text-center p-4 border rounded-lg">
+                  <p className="font-semibold text-foreground mb-2">Essential</p>
+                  <p className="text-2xl font-bold text-accent">£270</p>
+                  <p className="text-sm text-muted-foreground">/month per site</p>
+                </div>
+                <div className="text-center p-4 border-2 border-accent rounded-lg">
+                  <p className="font-semibold text-foreground mb-2">Professional</p>
+                  <p className="text-2xl font-bold text-accent">£540</p>
+                  <p className="text-sm text-muted-foreground">/month per site</p>
+                </div>
+                <div className="text-center p-4 border rounded-lg">
+                  <p className="font-semibold text-foreground mb-2">Enterprise</p>
+                  <p className="text-2xl font-bold text-accent">Custom</p>
+                  <p className="text-sm text-muted-foreground">Contact us</p>
+                </div>
+              </div>
+              <p className="text-center text-sm text-muted-foreground mt-4">Prices exclude VAT</p>
             </div>
 
             <div className="mt-12 text-center">
