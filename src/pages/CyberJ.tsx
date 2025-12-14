@@ -84,7 +84,7 @@ const CyberJ = () => {
       <nav className="fixed top-0 w-full bg-background/95 backdrop-blur-sm border-b border-border z-50">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
           <a href="/" className="hover:opacity-80 transition-opacity">
-            <JecclCyberLogo size="sm" variant="full" />
+            <JecclCyberLogo size="sm" variant="horizontal" />
           </a>
           <div className="flex items-center gap-6">
             <a href="/" className="text-foreground hover:text-accent transition-colors">Home</a>
