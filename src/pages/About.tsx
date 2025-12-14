@@ -38,52 +38,6 @@ const About = () => {
         </div>
       </section>
 
-      {/* About Christopher Mason */}
-      <section className="py-20 px-4 bg-muted/30">
-        <div className="container mx-auto">
-          <div className="max-w-5xl mx-auto">
-            <div className="flex items-center gap-3 mb-6 justify-center">
-              <Award className="w-8 h-8 text-accent" />
-              <h2 className="text-4xl font-bold text-foreground">Meet Christopher Mason</h2>
-            </div>
-            <Card className="p-8 md:p-12 shadow-lg">
-              <div className="flex flex-col md:flex-row gap-8 items-center mb-8">
-                <img 
-                  src={aboutImage} 
-                  alt="Christopher Mason - Founder of Jeccl Cyber"
-                  className="w-64 h-64 rounded-lg object-cover shadow-xl"
-                />
-                <div className="flex-1">
-                  <h3 className="text-2xl font-bold text-primary mb-2">Christopher Mason</h3>
-                  <p className="text-muted-foreground mb-2">Founder & Lead Consultant</p>
-                  <p className="text-sm text-muted-foreground">Masters in Cyber Security</p>
-                </div>
-              </div>
-              <div className="space-y-6 text-lg text-foreground leading-relaxed">
-                <p>
-                  <span className="font-semibold text-primary">Jeccl Cyber</span> represents the evolution of Christopher Mason's 
-                  legacy at Jeccl Ltd—a <span className="font-semibold">multi-award winning entrepreneur</span> whose unwavering 
-                  commitment to UK SME technology has established him as a trusted authority in the industry.
-                </p>
-                <p>
-                  Born from the increasing sophistication of cyber threats facing modern businesses, Jeccl Cyber stands 
-                  as the definitive cybersecurity partner for UK SMEs. Led by Christopher Mason, who holds a 
-                  <span className="font-semibold text-accent"> Masters in Cyber Security</span>, our consultancy delivers 
-                  unparalleled expertise that transforms complex security challenges into competitive advantages for 
-                  organisations across every sector.
-                </p>
-                <p>
-                  With continuous specialisation in emerging cybersecurity frameworks, including the forthcoming 
-                  <span className="font-semibold"> Cyber Security and Resilience Bill</span>, Jeccl Cyber doesn't just 
-                  meet regulatory requirements—we anticipate them. When you choose Jeccl Cyber, you're choosing a 
-                  partner who ensures your business remains perpetually ahead of compliance obligations and threat landscapes.
-                </p>
-              </div>
-            </Card>
-          </div>
-        </div>
-      </section>
-
       {/* Values Section */}
       <section className="py-20 px-4">
         <div className="container mx-auto">
