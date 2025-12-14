@@ -7,6 +7,7 @@ import securityNetwork from "@/assets/security-network.jpg";
 import teamCollaboration from "@/assets/team-collaboration.jpg";
 import securityShield from "@/assets/security-shield.jpg";
 import consultantPresenting from "@/assets/consultant-presenting.jpg";
+import JecclCyberLogo from "@/components/JecclCyberLogo";
 
 const Index = () => {
   return (
@@ -14,7 +15,9 @@ const Index = () => {
       {/* Navigation */}
       <nav className="fixed top-0 w-full bg-background/95 backdrop-blur-sm border-b border-border z-50">
         <div className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <a href="/" className="text-2xl font-bold text-primary hover:text-accent transition-colors">Jeccl Cyber</a>
+          <a href="/" className="hover:opacity-80 transition-opacity">
+            <JecclCyberLogo size="sm" variant="full" />
+          </a>
           <div className="flex items-center gap-6">
             <a href="/about" className="text-foreground hover:text-accent transition-colors">About</a>
             <a href="#services" className="text-foreground hover:text-accent transition-colors">Services</a>
@@ -405,7 +408,9 @@ const Index = () => {
       {/* Footer */}
       <footer className="py-12 px-4 bg-primary text-primary-foreground">
         <div className="container mx-auto text-center">
-          <a href="/" className="text-2xl font-bold mb-4 hover:text-primary-foreground/80 transition-colors">Jeccl Cyber</a>
+          <a href="/" className="inline-block mb-4 hover:opacity-80 transition-opacity">
+            <JecclCyberLogo size="md" variant="full" className="text-primary-foreground" />
+          </a>
           <p className="text-primary-foreground/80 mb-6">
             Protecting UK SMEs with expert cybersecurity solutions
           </p>
