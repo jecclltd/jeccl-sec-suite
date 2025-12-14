@@ -393,7 +393,7 @@ const CyberJ = () => {
                 Why Choose Jeccl Ltd's CyberJ?
               </h2>
               <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-                A new offering from Jeccl Ltd, backed by over 20 years of cybersecurity expertise
+                A comprehensive cybersecurity offering from Jeccl Ltd
               </p>
             </div>
 
@@ -406,18 +406,6 @@ const CyberJ = () => {
                 />
               </div>
               <div className="space-y-6">
-                <div className="flex items-start gap-4">
-                  <div className="p-3 bg-accent/10 rounded-lg flex-shrink-0">
-                    <Award className="w-8 h-8 text-accent" />
-                  </div>
-                  <div>
-                    <h3 className="text-2xl font-bold mb-2 text-foreground">20+ Years of Expertise</h3>
-                    <p className="text-muted-foreground">
-                      Led by Christopher Mason with over two decades in cybersecurity, 
-                      Jeccl Ltd brings deep expertise to this new comprehensive security offering.
-                    </p>
-                  </div>
-                </div>
                 <div className="flex items-start gap-4">
                   <div className="p-3 bg-accent/10 rounded-lg flex-shrink-0">
                     <Shield className="w-8 h-8 text-accent" />
@@ -623,6 +611,20 @@ const CyberJ = () => {
                 </div>
               </div>
               <p className="text-center text-sm text-muted-foreground mt-4">Prices exclude VAT</p>
+            </div>
+
+            {/* Cyber Essentials Add-on */}
+            <div className="mt-12 bg-card border-2 border-accent/20 rounded-xl p-8 max-w-4xl mx-auto">
+              <h3 className="text-2xl font-bold mb-4 text-center text-foreground">Cyber Essentials Add-on</h3>
+              <p className="text-muted-foreground text-center mb-6">
+                Get your business ready for Cyber Essentials certification. We assist with preparation, 
+                maintain your documentation, and handle the paperwork to register your business as Cyber Essentials certified.
+              </p>
+              <div className="text-center p-6 border-2 border-accent rounded-lg max-w-sm mx-auto">
+                <p className="text-2xl font-bold text-accent">£800</p>
+                <p className="text-sm text-muted-foreground">/month</p>
+              </div>
+              <p className="text-center text-sm text-muted-foreground mt-4">Price excludes VAT</p>
             </div>
 
             <div className="mt-12 text-center">
